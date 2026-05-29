@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Todas Fragrâncias</title>
+        <link rel="icon" type="image/x-icon" href="assets/Imagens/Lumos.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/Imagens/Lumos.ico" 
+                         alt="Lumos" 
+                         style="height: 100px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item" ><a class="nav-link active" aria-current="page" href="ofertas.html">Ofertas</a></li>
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fragrâncias<a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="fragrancias.html">Todas fragrâncias</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="exclusiva.html">Linha Exclusiva LUMOS</a></li>
+                                <li><a class="dropdown-item" href="essencial.html">Linha Essencial LUMOS</a></li>
+                                <li><a class="dropdown-item" href="boasfestas2026.html">Linha Boas Festas 2026</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#qrCodeModal" class="btn btn-outline-dark" style="text-decoration: none;">
+                            <i class="bi bi-qr-code me-1"></i> QR Code Pix
+                        </a>
+                            <div class="modal fade" id="qrCodeModal" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                         <div class="modal-header border-0">
+                                            <h5 class="modal-title">
+                                            QR Code PIX
+                                            </h5>
+                                        <button type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                        </button>
+                                        </div>
+                                            <div class="modal-body text-center">
+                                            <img src="assets/imagens/qrcode-pix.png"
+                                            alt="QR Code PIX"
+                                            class="img-fluid rounded">
+                                             <div class="mb-3">
+                                            <label class="form-label fw-semibold">
+                                            PIX Copia e Cola
+                                             </label>
+                                            <textarea 
+                                             class="form-control "
+                                            id="pixCode"
+                                            rows="4"
+                                             readonly>00020126360014BR.GOV.BCB.PIX0114+55419966760635204000053039865802BR5920Rodrigo Rain Schmidt6008Curitiba62070503***6304486B</textarea>
+                                            </div>
+                                         <button class="btn w-100 mb-3 text-white"
+                                        style="background-color: #000;"
+                                        onclick="copiarPix()">
+                                        <i class="bi bi-clipboard me-2"></i>
+                                        Copiar código PIX
+                                        </button>
+                                        <a href="https://wa.me/5541996676063?text=Olá!%20Realizei%20o%20pagamento%20via%20PIX%20no%20site%20da%20Lumos."
+                                         target="_blank"
+                                        class="btn btn-success w-100">
+                                        <i class="bi bi-whatsapp me-2"></i>
+                                        Enviar comprovante
+                                        </a>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                        <a href="https://www.instagram.com/lumos.aromasevelas"
+                           target="_blank"
+                           class="btn btn-outline-dark"
+                           style="text-decoration: none;">
+                            <i class="bi bi-instagram me-1" style="color: #E1306C;"></i>
+                            Instagram
+                        </a>
+                        <a href="https://wa.me/5541996676063?text=Olá!%20Gostaria%20de%20conhecer%20mais%20os%20produtos%20da%20Lumos."
+                           target="_blank"
+                           class="btn btn-outline-dark"
+                           style="text-decoration: none;">    
+                            <i class="bi bi-whatsapp me-1" style="color: #25D366;"></i>
+                            WhatsApp
+                        </a>             
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">Todas fragrâncias</h1>
+            </div>
+        </div>
+    </header>
+        <section class="py-1">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/imagens/SOULBEAM.jpeg" alt="SOULBEAM"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Soul Beam</h5>
+                                    <p class="small text-muted text-center mb-2" style="margin-top: -5px;">
+                                        Cereja com Avelã & Chá Branco
+                                    </p>
+                                    $74.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                href="produtos/soul-beam.html">
+                                 Comprar
+                             </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
+                            <img class="card-img-top" src="assets/imagens/CALMBREEZE.jpeg" alt="CALM BREEZE"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Calm Breeze</h5>
+                                    <p class="small text-muted text-center mb-2" style="margin-top: -5px;">
+                                        Pêssego & Chá branco
+                                    </p>
+                                    <span class="text-muted text-decoration-line-through">$74.90</span>
+                                    $64.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="produtos/calm-breeze.html">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
+                            <img class="card-img-top" src="assets/imagens/AURORAMIST.jpeg" alt="Aurora Mist"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Aurora Mist</h5>
+                                    <p class="small text-muted text-center mb-2" style="margin-top: -5px;">
+                                        Pitanga com Pitaya & Chá Branco
+                                    </p>
+                                    <span class="text-muted text-decoration-line-through">$74.90</span>
+                                    $64.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="produtos/aurora-mist.html">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/imagens/BLOOMHAZE.jpeg" alt="Bloom Haze"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Bloom Haze</h5>
+                                    <p class="small text-muted text-center mb-2" style="margin-top: -5px;">
+                                        Pitanga com Pitaya & Artex
+                                    </p>
+                                    $74.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="produtos/bloom-haze.html">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
+                            <img class="card-img-top" src="assets/imagens/GoldenVeil.jpeg" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Golden Veil</h5>
+                                    <span class="text-muted text-decoration-line-through">$74.90</span>
+                                    $64.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="produtos/golden-veil.html">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/imagens/MacaCanela.jpeg" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Maçã e Canela</h5>
+                                    $74.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="produtos/maca-canela.html">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
+                            <img class="card-img-top" src="assets/imagens/ChaBranco.jpeg" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Chá Branco</h5> 
+                                    <span class="text-muted text-decoration-line-through">$74.90</span>
+                                    $64.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="produtos/cha-branco.html">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="assets/imagens/PitangaPitaya.jpeg" alt="..." />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Pitanga e Pitaya</h5>                    
+                                    $74.90
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="produtos/pitanga-pitaya.html">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-5 bg-dark">
+            <div class="container text-center">
+                <p class="m-0 text-white">
+                    Copyright &copy; Lumos 2026
+                </p>       
+                <div class="mt-3">
+                    <a href="https://www.instagram.com/lumos.aromasevelas"
+                       target="_blank"
+                       class="me-3"
+                       style="font-size: 1.9rem; color: #E1306C; text-decoration: none;">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/5541996676063?text=Olá!%20Gostaria%20de%20conhecer%20mais%20os%20produtos%20da%20Lumos."
+                       target="_blank"
+                       style="font-size: 1.9rem; color: #25D366; text-decoration: none;">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script>
+                    function copiarPix() {
+                
+                        const pixCode = document.getElementById("pixCode");
+                
+                        pixCode.select();
+                        pixCode.setSelectionRange(0, 99999);
+                
+                        navigator.clipboard.writeText(pixCode.value);
+                
+                        alert("Código PIX copiado!");
+                    }
+                </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
